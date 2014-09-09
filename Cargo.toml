@@ -1,0 +1,22 @@
+[package]
+
+name = "strut"
+version = "0.0.1"
+authors = ["Kashif Malik <kashif610@gmail.com>"]
+
+[lib]
+name = "strut"
+path = "src/lib.rs"
+
+
+[[bin]]
+name = "test"
+path = "src/test.rs"
+
+[[bin]]
+name = "strut"
+path = "src/main.rs"
+
+
+[dependencies.seq]
+git = "https://github.com/japaric/seq.rs"
